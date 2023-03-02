@@ -8,8 +8,6 @@ import java.util.Random;
 
 public class NPC extends Personaje{
 
-	int posicionX;
-	int posicionY;
 	
 	public NPC() throws IOException, FileNotFoundException{
 		super(10, elegirNombreAleatorio());

@@ -10,7 +10,7 @@ import Personajes.Jugador;
 import Personajes.NPC;
 
 public class Juego {
-    private static Scanner teclado = new Scanner(System.in);
+public static Scanner teclado = new Scanner(System.in);
     
     public static void main(){
         //Crea lo necesario
