@@ -1,4 +1,5 @@
-# Proyecto-BetisIsland
+# Betis Island
+<h2>Prólogo</h2>
 Hay una leyenda que recorre el mundo entero de los piratas, esta cuenta que un fantástico tesoro se esconde en la lejana isla de Betis.
 En este juego de plataformas deberás luchar con tu espada y tu ingenio contra todo tipo de piratas informáticos, que intentarán quitarte las ganas de seguir en tu
 búsqueda del tesoro.
