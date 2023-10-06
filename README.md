@@ -51,7 +51,7 @@ disponibles en el juego son las siguientes:
   d. Izquierda (“A”).</br>
 </ol>
 
-Si el jugador trata de moverse a una posición que salga del borde del mapa (representado en el mapa con caracteres ::::::), se mostrará un mensaje en pantalla indicando que no puede pasar por allí.
+</br>Si el jugador trata de moverse a una posición que salga del borde del mapa (representado en el mapa con caracteres ::::::), se mostrará un mensaje en pantalla indicando que no puede pasar por allí.
 
 Después de cada movimiento se mostrará la nueva posición en el mapa y volverá a mostrar al jugador el menú de opciones.
 
@@ -133,22 +133,24 @@ No, toma el tiempo que necesites para completar la aventura.
 Si la vida del personaje llega a 0, tendrás que volver a comenzar la aventura desde el principio.
 
 <h2>3. Glosario</h2>
-<b>Betis Island:</b> Juego de plataformas en el que el jugador debe encontrar un tesoro escondido mientras se defiende de los ataques de piratas informáticos.
+<ul>
+<li><b>Betis Island:</b> Juego de plataformas en el que el jugador debe encontrar un tesoro escondido mientras se defiende de los ataques de piratas informáticos.
 
-<b>Tesoro:</b> Objeto que el jugador debe encontrar en el juego. Representado en el mapa por el carácter "X".
+<li><b>Tesoro:</b> Objeto que el jugador debe encontrar en el juego. Representado en el mapa por el carácter "X".</li>
 
-<b>Piratas informáticos:</b> Enemigos que intentarán detener al jugador en su búsqueda del tesoro.
+<li><b>Piratas informáticos:</b> Enemigos que intentarán detener al jugador en su búsqueda del tesoro.</li>
 
-<b>Espada:</b> Objeto utilizado para defenderse de los ataques de los piratas informáticos. Representado en el mapa por el carácter "?".
+<li><b>Espada:</b> Objeto utilizado para defenderse de los ataques de los piratas informáticos. Representado en el mapa por el carácter "?".</li>
 
-<b>Pala:</b> Objeto utilizado para cavar en la búsqueda del tesoro. Representado en el mapa por el carácter "?".
+<li><b>Pala:</b> Objeto utilizado para cavar en la búsqueda del tesoro. Representado en el mapa por el carácter "?".</li>
 
-<b>Jugador:</b> Personaje controlado por el usuario en el juego. Representado en el mapa por el carácter "J".
+<li><b>Jugador:</b> Personaje controlado por el usuario en el juego. Representado en el mapa por el carácter "J".</li>
 
-<b>Mapa:</b> Representación gráfica de las casillas y elementos del juego. Se muestra en pantalla en forma de una matriz de 3x3 que se actualiza con cada movimiento del jugador. Si se accede a la opción secreta este es mostrado en su formato completo 6x6.
+<li><b>Mapa:</b> Representación gráfica de las casillas y elementos del juego. Se muestra en pantalla en forma de una matriz de 3x3 que se actualiza con cada movimiento del jugador. Si se accede a la opción secreta este es mostrado en su formato completo 6x6.</li>
 
-<b>Interfaz:</b> Área en la que se muestra la información del juego y las opciones disponibles para el usuario.
+<li><b>Interfaz:</b> Área en la que se muestra la información del juego y las opciones disponibles para el usuario.</li>
 
-<b>Mover:</b> Opción en el menú que permite al jugador moverse a través del mapa.
+<li><b>Mover:</b> Opción en el menú que permite al jugador moverse a través del mapa.</li>
+</ul>
 
 ![LogoBetisIsland](https://github.com/Prouly/betis-island/assets/80397239/59bcd412-3e26-478c-aede-930182e26b0c)
