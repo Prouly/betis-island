@@ -1,4 +1,5 @@
 # Betis Island
+![PortadaBetisIsland 1](https://github.com/Prouly/betis-island/assets/80397239/8f5e9036-95c4-471b-bd9c-5cd3280961cb)
 <h2>Prólogo</h2>
 Hay una leyenda que recorre el mundo entero de los piratas, esta cuenta que un fantástico tesoro se esconde en la lejana isla de Betis.
 En este juego de plataformas deberás luchar con tu espada y tu ingenio contra todo tipo de piratas informáticos, que intentarán quitarte las ganas de seguir en tu
@@ -20,31 +21,45 @@ A continuación se mostrará en pantalla el texto que nos introduce a la aventur
 
 Una vez introducido su nombre, se generará un mapa de 6x6.
 En pantalla se mostrará un mapa de 3x3 que representa el rango de visión del jugador y que será actualizado con cada movimiento realizado por el jugador. En el mapa se posicionarán de manera aleatoria varios elementos que serán representados por diferentes caracteres:
-1. Jugador -> Será representado en el mapa por el carácter “ J ”.
-2. Tesoro -> Será representado en el mapa por el carácter “ X ”.
-3. Pala -> Será representado en el mapa por el carácter “ ? ”.
-4. Espada -> Será representado en el mapa por el carácter “ ? ”.
+<b>1. Jugador -> </b>Será representado en el mapa por el carácter “ J ”.
+<b>2. Tesoro -> </b>Será representado en el mapa por el carácter “ X ”.
+<b>3. Pala -> </b>Será representado en el mapa por el carácter “ ? ”.
+<b>4. Espada -> </b>Será representado en el mapa por el carácter “ ? ”.
+
+![MapaPeq](https://github.com/Prouly/betis-island/assets/80397239/05f24cdd-8a6f-4ea5-8791-80380d513c5e)
 
 <h3>1.4. Interfaz.</h3>
 <h4>1.4.1. Opciones disponibles.</h4>
 
-Hay cuatro opciones en el menú que se muestra al iniciar el juego, estas opciones
-serán introducidas mediante teclado utilizando los carácteres numéricos 0-3. Las
+Hay cuatro opciones en el menú que se muestra al iniciar el juego, estas opciones serán introducidas mediante teclado utilizando los carácteres numéricos 0-3. Las
 disponibles en el juego son las siguientes:
 
-1. Mover -> Permite moverse a través del mapa desde la casilla en la que se encuentra el jugador a otra de las contiguas que se encuentren en las siguientes direcciones pulsando uno de los siguientes carácteres desde el teclado:
-a. Arriba (“W”).
-b. Abajo (“S”).
-c. Derecha (“D”).
-d. Izquierda (“A”).
+![MenuSeleccion](https://github.com/Prouly/betis-island/assets/80397239/e755946f-b075-4f9e-be21-caa9dd405b02)
+
+<ol>
+<b>1. Mover -> </b>Permite moverse a través del mapa desde la casilla en la que se encuentra el jugador a otra de las contiguas que se encuentren en las siguientes direcciones pulsando uno de los siguientes carácteres desde el teclado:</br>
+
+<ol>
+  a. Arriba (“W”).</br>
+  b. Abajo (“S”).</br>
+  c. Derecha (“D”).</br>
+  d. Izquierda (“A”).</br>
+</ol>
+
 Si el jugador trata de moverse a una posición que salga del borde del mapa (representado en el mapa con caracteres ::::::), se mostrará un mensaje en pantalla indicando que no puede pasar por allí.
 
 Después de cada movimiento se mostrará la nueva posición en el mapa y volverá a mostrar al jugador el menú de opciones.
 
-2. Estado -> Muestra la cantidad de vida restante del jugador, las coordenadas de la posición en la que se encuentra el jugador y si tiene la espada y/o la pala.
-0. Salir -> Permite salir del juego.
-3. Mostrar mapa completo (oculta) -> Muestra el mapa completo de 6x6. La interfaz no nos informará de dicha opción, ya que es una opción secreta, solo el equipo de desarrollo o quien haya leído el manual lo conocerá.
+<b>2. Estado -></b> Muestra la cantidad de vida restante del jugador, las coordenadas de la posición en la que se encuentra el jugador y si tiene la espada y/o la pala.
 
+![EstadoJug](https://github.com/Prouly/betis-island/assets/80397239/44fd5277-b493-4f76-b373-34d1818a5b02)
+
+<b>0. Salir -></b> Permite salir del juego.</br>
+
+<b>3. Mostrar mapa completo (oculta) -></b> Muestra el mapa completo de 6x6. La interfaz no nos informará de dicha opción, ya que es una opción secreta, solo el equipo de desarrollo o quien haya leído el manual lo conocerá.
+
+![MapaCompleto](https://github.com/Prouly/betis-island/assets/80397239/ed287e78-ad31-4f53-b7ff-eef594e73739)
+</ol>
 <h3>1.5. Objetos y cómo ganar la partida.</h3>
 En el mapa se encuentran tres objetos: una pala, un tesoro y un jugador. El objetivo para ganar la partida es desenterrar el tesoro, para ello deberá encontrar la pala, ya que si intenta desenterrar el tesoro sin ella, saldrá un mensaje que informará al jugador de que es necesario una pala para poder desenterrar el tesoro.
 Utilidad de la espada: Si el jugador tiene la espada, puede vencer a los piratas de un solo ataque. De lo contrario, se requieren dos ataques certeros para poder ganar la batalla.
@@ -56,8 +71,7 @@ pirata. Una vez seleccionada, el pirata dará una respuesta al insulto del jugad
 restantes y si ninguno llega a 0 puntos de vida, el combate continuará de la misma manera hasta que uno de los dos personajes no tenga vida.
 
 <h3>1.7. Vida.</h3>
-El jugador comienza con 100 puntos de vida y pierde 5 puntos cada vez que es
-atacado por los piratas.
+El jugador comienza con 100 puntos de vida y pierde 5 puntos cada vez que es atacado por los piratas.
 Los piratas tienen 10 puntos de vida, este pierde 5 puntos cada vez que es atacado por el jugador si este no tiene la espada, si el jugador está en posesión de la espada, el daño infligido en cada ataque es de 10 puntos.
 
 <h3>1.8. Consejos.</h3>
@@ -75,10 +89,10 @@ Descárgalo desde nuestra desde https://github.com/Prouly/betis-island/, clona e
 
 <b>¿Qué son los elementos en el mapa (Jugador, Tesoro, Pala, Espada)?</b>
 
-El jugador (“ J ”) te representa a ti y tu posición en el mapa.
-El tesoro es representado por el carácter “ X ”, recuerda que la X siempre marca el
+El <b>jugador</b> (“ J ”) te representa a ti y tu posición en el mapa.
+El <b>tesoro</b> es representado por el carácter “ X ”, recuerda que la X siempre marca el
 tesoro en un mapa pirata.
-La Pala y la Espada están representados por el carácter (“ ? ”), corre de tu cuenta
+La <b>Pala</b> y la <b>Espada</b> están representados por el carácter <i>(“ ? ”)</i>, corre de tu cuenta
 averiguar cual es cada uno, así que, ve a por ellos.
 
 <b>¿Cómo me muevo en el mapa?</b>
@@ -131,3 +145,5 @@ Si la vida del personaje llega a 0, tendrás que volver a comenzar la aventura d
 <b>Interfaz:</b> Área en la que se muestra la información del juego y las opciones disponibles para el usuario.
 
 <b>Mover:</b> Opción en el menú que permite al jugador moverse a través del mapa.
+
+![LogoBetisIsland](https://github.com/Prouly/betis-island/assets/80397239/59bcd412-3e26-478c-aede-930182e26b0c)
