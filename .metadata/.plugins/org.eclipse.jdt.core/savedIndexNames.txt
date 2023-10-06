@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\DAM\DEINT\8. Betis Island\BetisIsland\.metadata\.plugins\org.eclipse.jdt.core
+3501714628.index
+1865797976.index
+1531221624.index
