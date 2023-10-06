@@ -8,13 +8,14 @@ Este manual te guiará a través del juego, explicando las diferentes opciones d
 Betis Island es un juego donde podrás experimentar la emoción de moverte por un mapa en busca de un tesoro escondido, mientras te defiendes de los ataques de los
 piratas informáticos con batallas memorables.</br>
 Agradecimientos a Ron Gilbert por servir de inspiración para la creación de esta adaptación del mítico Monkey Island.
-<h2>1. Guía Básica.</h2>
-<h3>1.1. Instalación.</h3>
-Descargar el proyecto e importarlo en IDE con Java (Eclipse, Netbeans, Visual Studio Code…). Una vez importado el proyecto, ejecutar aplicación desde la Clase APrincipal.
 
 <h2>Tecnologías y propósito</h2>
 Este juego ha sido desarrollado con caracter formativo utilizando Java como lenguaje de programación en toda su lógica.
 Como interfaz de usuario se utiliza la terminal del propio IDE.
+
+<h2>1. Guía Básica.</h2>
+<h3>1.1. Instalación.</h3>
+Descargar el proyecto e importarlo en IDE con Java (Eclipse, Netbeans, Visual Studio Code…). Una vez importado el proyecto, ejecutar aplicación desde la Clase APrincipal.
 
 <h3>1.2. Primeros pasos.</h3>
 Una vez ejecutado el juego, comenzará a sonar la música que te acompañará en la aventura y se mostrará en pantalla la información del juego a través de la interfaz de
